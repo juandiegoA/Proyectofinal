@@ -13,7 +13,7 @@
         \vspace*{1cm}
             
         \Huge
-        \textbf{Primeros Pasos}
+        \textbf{RoomyNite}
             
         \vspace{0.5cm}
         \LARGE
@@ -31,34 +31,52 @@
         Despartamento de Ingeniería Electrónica y Telecomunicaciones\\
         Universidad de Antioquia\\
         Medellín\\
-        Marzo de 2021
+        Septiembre de 2021
             
     \end{center}
 \end{titlepage}
 
 \tableofcontents
 \newpage
-\section{Ricitos de oro}\label{intro}
-Después de un choque inesperado en la nave espacial una sobreviviente cae en un planeta con aire respirable y un suelo fértil que provee de mucho alimento (un Planeta ricitos de oro), logra hacer contacto con los otros miembros de la naves aliadas que llegarán en 21 días, pero el único problema de este planeta es que su atmósfera no permite la entrada directa de luz debido a que la estrella de este sistema es muy débil, lo que impide que las baterías que alimentan el localizador y el comunicador se carguen, la buena noticia es que hay otros dos planetas cercanos uno más cerca a la estrella de este sistema solar y otro más alejado, en el planeta más cercano a la estrella (Dad Bear, o DB para abreviar), en DB la atmósfera es más fina y la luz de la estrella entra más fácil, es el lugar perfecto para recargar las baterías, de manera obvia la temperatura es mucho mayor ahí, por lo tanto no crecen plantas ni es un lugar apropiado para permanecer por mucho tiempo. El tercer planeta (Mom Bear, o MB para abreviar) es un planeta más frío, pero en este mismo cayó gran parte de la nave en la que venias, por eso mismo tiene varias herramientas y recursos que serán de ayuda en caso que el refugio, el rastreador o el intercomunicador necesiten repuestos, ademas que despues de pasar mucho tiempo en DB la temperatura de la nave puede subir a niveles peligrosos por lo cual se debe pasar por MB para que la temperatura de la nave baje; las temperaturas en MB son muy bajas por lo tanto quedarse un tiempo prolongado puede llevar a hipotermia y a la muerte.
+\section{Resumen}\label{intro}
+Un joven caballero despierta en el nivel inferior de una torre, de estilo gótico, no sabe cómo llegó ahí, ni sabe por qué, pero está determinado a escapar, pero su única opción es subir. En el primer piso se da cuenta que la torre tiene varios pisos (cada uno es un nivel), en cada piso deberá buscar llaves, herramientas o pociones que le ayuden superar bloqueos entre las habitaciones; pero para encontrar estos recursos necesitará mover cajas, leer ciertas instrucciones que te dirán exactamente donde colocar al personaje, o hacer caminar al personaje por una ruta, tal cual como lo indican las instrucciones. De esta manera los baúles y las puertas se abrirán, y obtendrá nuevos objetos para poder abrir las puertas y avanzar al siguiente piso.
 
-La nave en la que se llegó al planeta te permite viajar entre los otros dos planetas, pero no permite ir más lejos, además cuenta con una batería que se debe cargar en DB.
+\section{Entorno}\label{intro}
+Los pisos son lugares tenuemente iluminados con una antorcha. El factor de poca luz es implementado para dificultar el movimiento del personaje por el cuarto, pues podría caer en una trampa o podría pasar por alto una poción o una caja que le ayude a seguir al siguiente nivel.
+\section{Amenazas}\label{intro}
+Los enemigos no existen en este juego, pero los pisos cada uno cuenta con trampas que le dificultan el paso al personaje en su afán de salir de la torre.
+\subsection{Cañones}
+Los cañones salen de la pared y lanzan proyectiles en un intervalo de tiempo determinado (en pisos/niveles más altos el intervalo de tiempo será más reducido), después de tres golpes de cañón el juego termina
+\subsection{Rios}
+Los ríos se forman en el suelo de cada piso, estos se pueden encontrar en varios colores, si se usa la poción del color incorrecto en un rio (las opciones se explican mas adelante en la sección objetos) el jugador deberá comenzar desde el inicio de ese cuarto, si entra tres veces mal en el rio que no corresponde, sera el final del juego.
+\section{Objetos}\label{intro}
+Los objetos serán recursos o herramientas  dispuestos para superar niveles estos pueden durar para todo el juego o pueden ser únicamente para un nivel
+\subsection{Palancas}
+Las palancas únicamente cumplen con el objetivo de abrir puertas, cuando se baja una palanca ya es posible pasar por la puerta.
+\subsection{Cajas}
+Las cajas funcionan como llaves para las puertas que no se puedan abrir por medio de las palancas (leer subsección de palancas de la esta sección), su función será ser empujada por el personaje para que esta caiga en un agujeron determinado, en caso tal de encontrarse con más de una caja el color de la caja y del agujero deberá coincidir para que la puerta abra.
 
-El objetivo del juego es sobrevivir los 21 días hasta que llegue la tripulación al rescate; esto se dificulta puesto que al personaje le dará hambre y se cansara, y el único lugar donde estas necesidades son saciadas es en el planeta ricitos de oro, si los niveles de cansancio llegan al límite en alguno de los otros dos planetas (DB ó MB), se acaba el juego. Hay un obstáculo más pues pese a que los planetas están cerca, hay varios asteroides alrededor, por ende de manera aleatoria durante los viaje (Que de manera normal serían automáticos), se le pedirá al jugador tomar el control; éste deberá elegir entre dos caminos y deberá escoger el que tenga el menor número de asteroides en un tiempo determinado, de escoger mal o acabarse el tiempo será el final del juego.
+No se puede empujar una caja mientras se utiliza el escudo (leer subsección escudo de esta sección).
+\subsection{Escudo}
+El escudo permite detener los proyectiles de los cañones (leer la subsección de cañones en la sección de amenazas), y que de esta manera no ejerzan daño al personaje, el escudo será un ítem que acompaña al personaje durante todo el juego y no puede ser retirado ni destruido, este se obtiene en el piso 3 (leer sección de pisos subsección piso III).
+\subsection{Pociónes}
+Las pociones permiten atravesar los ríos si se recolecto la pocion correcta, estos ítems solo están disponibles hasta que el personaje pase a otro piso, si el piso requiere cruzar un río la el personaje se encontrará con una poción en ese cuarto.
+\section{Pisos}\label{intro}
+\subsection{Piso I}
+El primer piso se compone únicamente de dos hileras de bloques sólidos, una unida a la pared de la parte superior y la otra a la pared de la parte inferior, y una palanca, para que el jugar entienda las mecánicas de movimiento del juego (ver sección de mecánicas).
+\subsection{piso II}
+En el segundo piso tenemos una caja (ver sección objetos subsección cajas), después de ingresar la caja a su correspondiente agujero la puerta se abrira permitiendo al personaje pasar de nivel.
+\subsection{Piso III}
+En el tercer piso se introducen los cañones (ver sección amenazas subsección cañones), los cuales se encuentran  dos en la pared superior y uno en la pared inferior con un intervalo de entre proyectil y proyectil de un segundo. A la entrada del piso se le entregará el personaje en escudo para que se proteja de los cañones, también en la entrada se encontrará una caja que deberá llevar hasta el final del piso para poder encontrar su agujero y abrir la puerta.
+\subsection{Piso IV}
+En el cuarto piso se encontrará con dos ríos el primero azul un poco más cerca de la entrada de ese piso (Un poco más a la izquierda del cuarto), después se encontrará un espacio entre río y río, después se encontrará con un río rojo. En la entrada del piso se encontrará con una poción azul, la cual le permitirá cruzar el primer río, en el espacio entre ríos se encontrará con una poción roja que le permitirá cruzar el segundo río, y llegar a una palanca y a la salida del piso.
+\subsection{Piso V}
+Todavia en desarrollo
+\section{Mecánicas}\label{intro}
+Los controles utilizados para el juego serán únicamente las teclas A, S, D, W, BARRA ESPACIADORA. La teca A movera al personaje hacia la izquierda, S lo moverá hacia la parte inferior del piso, D lo desplaza hacia la derecha, W lo moverá hacia la parte superior del piso, la Barra espaciadora le permite al personaje interactuar con los objetos (Leer sección objetos).
 
-\section{Ruminate}\label{intro}
-Un joven está en el nivel inferior de una torre, no sabe como llego ahi, ni sabe porqué, pero está determinado a escapar, pero su única opción es subir, en el primer piso se da cuenta que la torre tiene 20 pisos y que cada piso tiene 4 habitaciones, en cada habitación deberá buscar llaves, herramientas o pociones que le ayuden superar bloqueos entre las habitaciones; pero para encontrar estos recursos necesitará mover cajas, mover escaleras para llegar a lugares más altos, leer ciertas instrucciones que te dirán exactamente donde colocar al personaje, o hacer caminar al personaje por una ruta, tal cual como lo indican las instrucciones. De esta manera los baúles se abrirán, las paredes se moverán, los tapices se caerán y se descubrirán, nuevos objetos para poder abrir las puertas y avanzar al siguiente piso.
-    
-No todo será tan fácil pues al llegar al piso 5, el personaje comenzará a sentir que algo va detrás de él, no sabe con exactitud qué es pero sabe que es malo y peligroso; si pasa mucho tiempo en un piso esta maldad lo alcanzara en cuya casa será el fin del juego. También se debe tener en cuenta que el personaje cuenta con 3 corazones, cada corazón está dividido en 4. Mover cajas consume corazones, hay dos tipos de cajas, piedra y madera; mover una caja de madera consume un cuarto de un corazón, y mover una caja de piedra medio corazón. Se puede reponer corazones bebiendo pociones, o reiniciando el piso (lo que restaura todos los corazones).
+Las cajas serán arrastradas por el suelo, si el jugador desea mover una caja solo debe acercarse a esta y dependiendo de la dirección con la que quiera moverla hacer que su personaje la empuje manteniendo presionada la tecla de la dirección a la cual la quiere mover.
 
-Despues del piso 10 nace un nuevo problema, pues la torre cuenta con defensas que atacan al personaje mientras hace su búsqueda de los  recursos y los materiales; hay dos tipos de defensas unas toman tiempo en volver a recargar y otros hacen ataques constantemente; pero también se le entregará un escudo que le permite defenderse; pero mientras se esté usando el escudo no se puede mover cajas, ni escaleras, ni usar pociones; las defensas de una habitación se pueden desactivar, aunque esto requiere tiempo, y el ser que está detrás del personaje no pierde el tiempo.
-
-El objetivo del juego es llegar al piso 20, donde las verdades serán reveladas.
-
-\section{The Near}\label{intro}
-Este es un juego de plataformas, con los manejos y las pruebas típicas de estos mismos, el juego sería para dos personas, cada jugador tiene 30 segundos, para hacer avanzar al personaje lo más que pueda 
-
-Ganará el que logre llevar al personaje hasta la meta que tiene trazada, si llega a caer en algunas de las trampas, se le penalizará volviendo una parte del camino mientras el tiempo sigue corriendo. Conforme avance entre las plataformas estas se harán más difíciles de superar.
-
-El primer jugador, en su primer turno dispondrá de un minuto, pues esto ayuda a que los jugadores se encuentren en condiciones más parejas,
+El escudo se activará con la tecla Barra Espaciadora, si no se encuentra ningún otro objeto para interactuar con el, el personaje no puede mover ninguna caja mientras tenga el escudo activado,
 
 \end{document}
